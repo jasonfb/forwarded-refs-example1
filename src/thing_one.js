@@ -15,7 +15,7 @@ class ThingOne extends React.Component{
     const is_checked = dom_elem.checked
     alert("This box is now " + (is_checked ? 'CHECKED' : 'UNCHECKED'))
   }
-  
+
   render() {
     return (
       <div>
